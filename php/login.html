@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/icono-pagina.png">
+    <link rel="stylesheet"  type="text/css"  href="../css/hoja_estilo.css">
+    <title>Iniciar Sesión</title>
+</head>
+<body>
+    <a href="../index.html" class="enlace">Inicio</a>
+    <a href="../index.html#Ubicacion" class="enlace-menu">Ubicación</a>
+    <a href="../index.html#Galeria" class="enlace-menu">Galeria</a>
+    <a href="crear_cuenta.html" class="enlace-menu">Registrarse</a>
+        <form action="login.php" method="post" class="formulario">
+            <h2 class="iniciar-sesion">Iniciar Sesión</h2>
+            <div class="usuario">
+                <input type="email" name="user" id="" placeholder="Correo Electronico" class="usuario-input" required>
+            </div>
+            <div class="password">
+                <input type="password" name="password" id="" placeholder="Contraseña" class="password-input" required>
+            </div>
+            <input type="submit" value="Iniciar Sesión" class="enviar-datos">
+        </form>
+</body>
+</html>
